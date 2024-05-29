@@ -1,0 +1,141 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Avenir Next Rounded", sans-serif;
+}
+
+.mini-nv{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1A4840;
+    color: white;
+    padding-block: 8px;
+}
+.mini-nv p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: aqua; */
+    margin: 0;
+    word-spacing: 20px;
+}
+/* mini-nv closed */
+
+/* nav start */
+nav{
+    background-color: #0F0F0F;
+}
+nav div img{
+    width: 120px;
+}
+nav div form a{
+    text-decoration: none;
+    color: white;
+}
+/* nav closed */
+
+/* nv-ft start */
+.nv-ft{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0F0F0F;
+}
+.nv-ft ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    list-style: none;
+}
+.nv-ft ul li a{
+    text-decoration: none;
+    color: white;
+}
+/* nv-ft closed */
+
+/* vs start */
+.vs{
+    background-color: #F9F6E6;
+}
+.vs button{
+    background-color: #08A3A8;
+    color: white;
+}
+.vs a{
+    text-decoration: none;
+    color: #30B0B1;
+}
+/* vs closed */
+
+/* crd-parent start */
+.crd-parent{
+    background-color: #F9F6E6;
+}
+.crd{
+    width: 20%;
+    height: auto;
+    border-radius: 10px;
+    background-color: white;
+}
+.crd-nv{
+    color: white;
+}
+.crd-nv .b{
+    border-radius: 10px 0px 0px 0px;
+    background-color: #F9F6E6;
+}
+.crd-nv .s{
+    border-radius: 0px 10px 0px 0px;
+    background-color: #1A4840;
+}
+.crd img{
+    width: 100%;
+    /* height: 200px; */
+}
+.crd .card-body .card-text{
+    color: #32b2b6;
+    font-size: 14px;
+}
+.card-body .card-text span{
+    color: #c5454d;
+}
+.card-body a{
+    background-color: #1A4840;
+}
+
+
+/* Responsive @768px */
+@media (max-width: 768px) {
+    .mini-nv p{
+        word-spacing: normal;
+    }
+    .nv-ft{
+        display: none;
+    }
+    .crd-parent{
+        flex-wrap: wrap;
+        padding-bottom: 20px;
+        gap: 15px;
+    }
+    .crd{
+        width: 45%;
+    }    
+}
+
+/* Responsive @480 */
+@media (max-width: 480px) {
+    .mini-nv{
+        text-align: center;
+    }
+    .crd{
+        width: calc(100% / 2);
+    }
+    
+}
