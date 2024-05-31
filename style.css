@@ -113,6 +113,9 @@ nav div form a{
 
 /* Responsive @768px */
 @media (max-width: 768px) {
+    .mini-nv{
+        flex-wrap: wrap;
+    }
     .mini-nv p{
         word-spacing: normal;
     }
