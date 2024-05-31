@@ -116,6 +116,9 @@ nav div form a{
         flex-wrap: wrap;
     }
     .mini-nv p{
+        word-spacing: 0;
+    }
+    .mini-nv p{
         word-spacing: normal;
     }
     .nv-ft{
