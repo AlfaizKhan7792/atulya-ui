@@ -112,13 +112,6 @@ nav div form a{
 
 /* Responsive @768px */
 @media (max-width: 768px) {
-    .mini-nv{
-        padding-inline: 20px;
-        flex-wrap: wrap;
-    }
-    .mini-nv p{
-        word-spacing: 0;
-    }
     .mini-nv p{
         word-spacing: normal;
     }
@@ -139,6 +132,12 @@ nav div form a{
 @media (max-width: 480px) {
     .mini-nv{
         text-align: center;
+        padding-inline: 20px;
+        flex-wrap: wrap; 
+    }
+    
+    .mini-nv p{
+        word-spacing: 0;
     }
     .crd{
         width: calc(100% / 2);
